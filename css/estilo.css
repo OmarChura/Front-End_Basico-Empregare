@@ -1,0 +1,41 @@
+/*Limpar fotmataçãoes padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    font-family: 14px "Lucida Grande", "Lucida Snas Unicodee", Arial, sans-serif;
+}
+/*login*/
+
+/*aplica degrade cinza no topo*/
+.degrade-nav{
+    box-shadow: 0 20px 18px -18px #ccc;
+}
+
+/*vendas*/
+
+.texto-vendas:hover {
+    text-decoration: none;
+}
+
+/*Media queeries
+estilo para mobile*/
+@media(max-width: 319.99px){
+    .img-topo{
+        width: 250px;
+    }
+}
+@media(min-Width:320px) and (max-width: 1023.99px){
+    .img-topo{
+        width: 300px;
+    }
+}
+@media(min-Width:1024px) {
+    .img-topo{
+        width: 450px;
+        
+    }
+}
